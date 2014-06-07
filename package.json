@@ -1,0 +1,37 @@
+{
+  "name": "im-rdfrepo",
+  "version": "1.0.0",
+  "author": "Erik Larsson",
+  "description": "RDF Repository API for informationmeet.com",
+  "contributors": [ 
+    {
+      "name": "Erik Larsson",
+      "email": "erik.larsson@musiker.nu"
+    } 
+  ],
+  "dependencies" : {
+    "restify": "2.6.x",
+   "underscore": "1.5.x"
+  },
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "main": "app.js",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "jshintConfig" : {
+    "node": true,
+    "camelcase": true,
+    "curly": true,
+    "forin": true,
+    "freeze": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "globals": {
+    }
+  }
+}
