@@ -8,5 +8,5 @@ var restinterface = require('./restinterface.js');
 // Initialize and start server process
 //-----------------------------------
 restinterface.create({
-	port: process.env.port || 4405
+	port: process.env.PORT || 4405
 });
