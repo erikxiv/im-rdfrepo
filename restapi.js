@@ -6,8 +6,8 @@
 	// Internals
 	//---------------
 	var version = 'v1';
-	var DYDRA_API_KEY = '8YRg8aFMcd6oPC6VKQEt';
-	var DYDRA_ACCOUNT_ID = 'erikxiv';
+	var DYDRA_API_KEY = process.env.DYDRA_API_KEY;
+	var DYDRA_ACCOUNT_ID = process.env.DYDRA_ACCOUNT_ID;
 
 	//---------------
 	// Module exports
